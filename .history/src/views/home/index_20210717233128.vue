@@ -4,7 +4,6 @@
   </div>
 </template>
 <script>
-import { blogList } from '../../api/home/index.js'
 export default {
   name: 'Home',
   components: {},
@@ -16,16 +15,8 @@ export default {
       return this.$route.path
     }
   },
-  created() {
-    this.getList()
-  },
-  methods: {
-    getList() {
-      blogList().then((res) => {
-        console.log(res)
-      })
-    }
-  }
+  created() {},
+  methods: {}
 }
 </script>
 <style lang="scss" scoped></style>

@@ -14,18 +14,16 @@ export default {
   computed: {
     pathRoute() {
       return this.$route.path
-    }
+    },
   },
-  created() {
-    this.getList()
-  },
+  created() {},
   methods: {
     getList() {
       blogList().then((res) => {
         console.log(res)
       })
-    }
-  }
+    },
+  },
 }
 </script>
 <style lang="scss" scoped></style>

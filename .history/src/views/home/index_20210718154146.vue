@@ -16,12 +16,10 @@ export default {
       return this.$route.path
     }
   },
-  created() {
-    this.getList()
-  },
+  created() {},
   methods: {
     getList() {
-      blogList().then((res) => {
+      blogList().then(res=>{
         console.log(res)
       })
     }
