@@ -141,9 +141,9 @@ export default {
   computed: {
     optionsStyle() {
       return {
-        width: `100px`,
+        width: `100px`
       }
-    },
+    }
   },
   watch: {
     $route: {

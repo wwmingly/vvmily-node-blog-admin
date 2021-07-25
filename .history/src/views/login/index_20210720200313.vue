@@ -138,12 +138,12 @@ export default {
       otherQuery: {},
     }
   },
-  computed: {
-    optionsStyle() {
+  computed:{
+    optionsStyle(){
       return {
-        width: `100px`,
+        width:`100px`
       }
-    },
+    }
   },
   watch: {
     $route: {
